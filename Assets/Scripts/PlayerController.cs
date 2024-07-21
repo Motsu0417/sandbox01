@@ -28,14 +28,13 @@ public class PlayerController : MonoBehaviour
         return playerState;
     }
 
-    // Start is called before the first frame update
-
     public enum PLAYERSTATE
     {
         PLAY,
         PAUSE,
-        CHAT
+        CHAT,
     }
+
     void Start()
     {
         maincamra = Camera.main;
